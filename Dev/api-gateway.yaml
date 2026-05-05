@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: api-gateway
-        image: kmithesh/api-gateway:latest
+        image: kmithesh/api-gateway:1
         ports:
         - containerPort: 5000
         env:
