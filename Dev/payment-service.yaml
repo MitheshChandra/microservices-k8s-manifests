@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: payment-service
-        image: kmithesh/payment-service:2
+        image: kmithesh/payment-service:3
         ports:
         - containerPort: 5003
         livenessProbe:

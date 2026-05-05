@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: kmithesh/order-service:2
+        image: kmithesh/order-service:3
         ports:
         - containerPort: 5002
         env:

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: kmithesh/user-service:2
+        image: kmithesh/user-service:3
         ports:
         - containerPort: 5001
         env:
